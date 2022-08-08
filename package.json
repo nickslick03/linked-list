@@ -1,0 +1,18 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "watch": "jest --watch *.ts"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "@types/jest": "^28.1.6",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  }
+}
